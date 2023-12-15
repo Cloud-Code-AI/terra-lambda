@@ -8,7 +8,7 @@ This AWS Lambda function is designed to automate the process of applying Terrafo
 ## Features
 
 - **S3 Integration**: Downloads Terraform files directly from a specified S3 bucket.
-- **Automated Terraform Execution**: Automatically initializes and applies Terraform plans.
+- **Automated Terraform Execution**: Automatically initializes and applies Terraform plans. It uses terraform 1.5.7 which is truly open source, so no need to worry about the license issue.
 
 ## Prerequisites
 
